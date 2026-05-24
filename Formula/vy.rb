@@ -1,28 +1,28 @@
 class Vy < Formula
   desc "TypeScript framework for full-stack edge apps"
   homepage "https://vy.dev"
-  version "0.0.0-dev.6b22087"
+  version "0.0.0-dev.c29b5f8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://releases.vy.dev/cli/v0.0.0-dev.6b22087/vy-aarch64-macos.tar.gz"
-      sha256 "1fabdf4de30c62c881968cc74d234d1dd60288ffcca192ab66098b662154c2c2"
+      url "https://releases.vy.dev/cli/v0.0.0-dev.c29b5f8/vy-aarch64-macos.tar.gz"
+      sha256 "fee1ed533d5e99978e2c0367bd96ad35b356f4e70dc668643124b6aa5608c5dc"
     end
     on_intel do
-      url "https://releases.vy.dev/cli/v0.0.0-dev.6b22087/vy-x86_64-macos.tar.gz"
-      sha256 "54c94b64726bbf85c25c5dde2930f5f2a21a550ac1b2209431d25ff8c3df40d3"
+      url "https://releases.vy.dev/cli/v0.0.0-dev.c29b5f8/vy-x86_64-macos.tar.gz"
+      sha256 "bed2ce2e8f5e4d3ce6bed7a804e3277dd68e5ea1c22ca486a6a70936e05244b2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.vy.dev/cli/v0.0.0-dev.6b22087/vy-aarch64-linux.tar.gz"
-      sha256 "00fd615947eecce24cbb14d90132a7faf455aa8269aad6fddc79c5ea31d06230"
+      url "https://releases.vy.dev/cli/v0.0.0-dev.c29b5f8/vy-aarch64-linux.tar.gz"
+      sha256 "8ed6c6c4f90947738ad7a802435aaaf3cc4706e3bb2da5b95cd467df021d49e2"
     end
     on_intel do
-      url "https://releases.vy.dev/cli/v0.0.0-dev.6b22087/vy-x86_64-linux.tar.gz"
-      sha256 "415b5e1975debd5eeeecf74daba7508ce0d89b182fde2680e0b0565b5dbc1066"
+      url "https://releases.vy.dev/cli/v0.0.0-dev.c29b5f8/vy-x86_64-linux.tar.gz"
+      sha256 "84854ed6d5ef99723c8f542ae9bfd8e987ddbebb029b12a8db73cad17e50dc2f"
     end
   end
 
